@@ -1,5 +1,6 @@
 require("dotenv").config();
 const connectionString = process.env.DB_CONNECTION_STRING;
+console.log(connectionString);
 // Update with your config settings.
 
 /**
